@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Saylani Online Academy </h1>
+  <form action="./thanks.html" method="get">
+  <div class="container">
+    
+      <table>
+        <tr>
+          <td></td>
+          <td>
+           <h2>Student Registration Form</h2>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="name">Name: </label>
+          </td>
+          <td>
+            <input type="text" id="name" placeholder="name" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Father Name">Father Name: </label>
+          </td>
+          <td>
+            <input type="text" name="Father Name" id="Father name" placeholder="Father Name" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+       <label for="Password">Password:</label>
+          </td>
+          <td>
+            <input type="password" name="password" id="Password" required placeholder="********">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="address">Address: </label>
+          </td>
+          <td>
+            <textarea name="address" id="address" cols="23" rows="8" placeholder="Address" required></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Gender">Gender:</label>
+          </td>
+          <td>
+            <input type="radio" name="Gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="Gender" id="female" value="female">
+            <label for="female">Female</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="language">Language: </label>
+          </td>
+          <td>
+            <input type="checkbox" name="language" id="Urdu" value="Urdu">
+            <label for="Urdu">Urdu</label>
+            <input type="checkbox" name="language" id="English" value="English">
+            <label for="English">English </label>
+            <input type="checkbox" name="language" id="Arabic" value="Arabic">
+            <label for="Arabic">Arabic</label>
+            <input type="checkbox" name="language" id="Chines" value="Chines">
+            <label for="Chines">Chines</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="DOB">DOB: </label>
+          </td>
+          <td> <input type="date" required name="DOB">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="email">Email Id: </label>
+          </td>
+          <td>
+            <input type="email" name="email" id="email" placeholder="Email Id">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="number">Mobile Number: </label>
+          </td>
+          <td>
+            <input type="number" name="number" id="number" placeholder="Mobile Number">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="city">City:
+            </label>
+          </td>
+          <td>
+            <select name="city">
+              <option value="City" selected disabled> Select Your City</option>
+              <option value="Hyderabad" id="Hyderabad" name="city"> Hyderabad</option>
+              <option value="karachi" id="karachi" name="city">Karachi</option>
+              <option value="MirPurkhas" name="city" id="mirpurkhas">MirPur khas</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="hobbies">Hobbies:</label>
+          </td>
+          <td>
+            <select multiple size="2">
+              <option value="cricket" name="hobbies" id="cricket">Cricket</option>
+              <option value="hockey" name="hobbies" id="hockey">Hockey</option>
+              <option value="football" name="hobbies" id="football">Foot ball</option>
+              <option value="basketball" name="hobbies" id="basketball">Basket ball</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="picture">Picture Upload: </label>
+          </td>
+          <td>
+            <input type="file" name="picture" id="picture" accept="image/*">
+            <button type="upload">Upload</button>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input type="submit" value="Submit Form">
+          </td>
+        </tr>
+      </table>
+  </div>
+   </form>
+</body>
+
+</html>
